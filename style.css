@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #000;
+    padding: 25px 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+.nav-logo img{
+    width: 90px;
+    cursor: pointer;
+}
+
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-list ul li{
+    list-style: none;
+
+}
+
+.nav-list ul li a{
+text-decoration: none;
+color: #ffffff;
+font-size: 13px;
+font-weight: 600;
+transition: 0.2s ease-in;
+}
+
+.nav-list ul li a:hover{
+    color: #B90EC5;
+}
+
+.line{
+    width: 1px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.btn{
+    padding: 7px 19px;
+    background-color: #B90EC5;
+    border: none;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    color: #ffffff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #B90EC5;
+    background-color: #ffffff;
+    border: 1px solid #000;
+}
+.container{
+    width: 100%;
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 87.4vh;
+    text-align: center;
+}
+
+.main-container{
+width: 50%;
+margin: auto;
+padding-top: 170px;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.main-container-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+
+.main-container-upper h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    font-family: "Poppins";
+    color: #ffffff;
+}
+
+.main-container-upper p{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Poppins";
+    color: #ffffff;
+}
+.main-container-down{
+    display: flex;
+    justify-content: center;
+}
+#btn-large{
+   padding: 10px 25px;
+   font-size: 18px; 
+   font-weight: 600;
+}
